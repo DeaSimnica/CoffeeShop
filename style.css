@@ -8,7 +8,6 @@
     --body-font: 'Segoe UI', sans-serif;
 }
 
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -27,25 +26,22 @@ a {
     color: inherit;
 }
 
-/* Header */
 header {
     background: var(--primary-color);
     color: white;
-    padding: 1.5rem 2rem;
+    padding: 0.7rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-/* Logo */
 .logo a {
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
 }
 
-/* Nav */
 nav {
     position: relative;
     font-weight: 500;
@@ -68,7 +64,6 @@ nav ul li a:hover {
     border-bottom: 2px solid white;
 }
 
-/* Hamburger Button - hidden by default */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -83,7 +78,6 @@ nav ul li a:hover {
     border-radius: 2px;
 }
 
-/* Content Section */
 .content {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/coffee-2139592_1280.jpg') center/cover no-repeat;
     color: white;
@@ -105,7 +99,6 @@ nav ul li a:hover {
     font-size: clamp(1rem, 3vw, 1.25rem);
 }
 
-/* Menu and Shop */
 .menu, .shop {
     padding: 2rem;
 }
@@ -122,14 +115,12 @@ nav ul li a:hover {
     color: var(--primary-color);
 }
 
-/* Grid for menu and shop */
 .menu-content, .shop-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
-/* Cards */
 .hot-coffees, .cold-coffees, .card {
     background: white;
     border-radius: 10px;
@@ -151,7 +142,6 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-/* Card body */
 .hot-coffees-body, .cold-coffees-body, .card-body {
     padding: 1rem;
     text-align: center;
@@ -167,7 +157,6 @@ nav ul li a:hover {
     color: #666;
 }
 
-/* Contact */
 .contact {
     background-color: var(--accent-color);
     display: flex;
@@ -231,7 +220,6 @@ nav ul li a:hover {
     background: #5a3e2b;
 }
 
-/* Footer */
 .footer {
     background: var(--dark-bg);
     color: white;
@@ -245,7 +233,6 @@ nav ul li a:hover {
     font-size: 1.25rem;
 }
 
-/* Responsive tweaks */
 @media (max-width: 1024px) {
     .content {
         height: 60vh;
